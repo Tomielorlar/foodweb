@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>OrekeFood.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+
+        <div class="home-slider swiper-container">
+
+            <div class="wrapper swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our local dish</span>
+                        <h3>Amala</h3>
+                        <p>Amala with different kinds of soup together with asorted meat</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./foodpics/Abula.jpeg">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Jollof rice and chicken</h3>
+                        <p>nigeria Jollof, Friedrice and other spicy food are available</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                       <img src="./foodpics/Jollof-rice-16.jpg">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Snacks</h3>
+                        <p>all different kinds of Snacks are available</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                       <img src="./foodpics/snack.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading"> popular dishes</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/Eba.jpeg">
+                <h3>Eba and Ogbona</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦2,499.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/download.jpeg">
+                <h3>Pounded Yam(Iyan) with Egusi Soup</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦2,999.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/fufu.jpeg">
+                <h3>Fufu with okra soup</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦1,999.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/Tuwo_Shinkafa_with_garden_egg_Soup.jpg">
+                <h3>Tuwo-Shinkafa with garden egg soup</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦1,499.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/Friedrice.jpg">
+                <h3>Friedrice and chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦2,499.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+             <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/download (2).jpeg">
+                <h3>Spagetti</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦1,999.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/download (1).jpeg">
+                <h3>Salad</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦1,499.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/coleslaw-recipe.jpg">
+                <h3>coleslaw</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦1,499.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/download (4).jpeg">
+                <h3>Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦999.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/Doughnut.jpg">
+                <h3>Doughnut</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦499.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/pie.jpeg">
+                <h3>Meat and Chicken Pie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦699.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./foodpics/sausage.jpeg">
+                <h3>Sausage roll</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>₦499.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div> 
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us?</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./foodpics/chef.jpeg">
+            </div>
+
+            <div class="content">
+                <h3>best food in the city</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero quisquam eos magnam blanditiis, incidunt, 
+                consectetur exercitationem dolorem 
+                laboriosam officia cumque quis maiores veniam provident alias similique. Pariatur in molestias eveniet.
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero quisquam eos magnam blanditiis, incidunt, 
+                consectetur exercitationem dolorem 
+                laboriosam officia cumque quis maiores veniam provident alias similique. Pariatur in molestias eveniet.
+                </p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-car"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                       <i>₦</i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-clock"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading"> food available today </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/1.jpg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Amala</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦1,199.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/2.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>eba</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦999.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/3.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>semo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦1,199.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/coconut.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>coconut rice</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦1,499.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/ewa.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>ewa agoi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦1,199.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/moimoi.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>moi-moi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦699.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/chops.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3><small>chops</small></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦999.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/pasta.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>pasta</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦1,199.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./foodpics/yam.jpeg">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>yam poridge</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="pice">₦1,199.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading">customer's review</h3>
+        <h1 class="heading"> what did they say?</h1>
+        
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide slide">
+                    <i class="fas fa-comment"></i>
+                    <div class="user">
+                        <img src="./foodpics/IMG-20220710-WA0031.jpg">
+                        <div class="user-info">
+                            <h3>Alisa Nelson</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione autem cupiditate? 
+                        Nulla, magni? Sunt accusamus iure ut consequuntur cum deserunt! Fugit, deleniti quisquam. 
+                        Provident iste voluptatibus similique enim aperiam.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-comment"></i>
+                    <div class="user">
+                        <img src="./foodpics/IMG-20220710-WA0028.jpg">
+                        <div class="user-info">
+                            <h3>Bimbo Amos</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione autem cupiditate? 
+                        Nulla, magni? Sunt accusamus iure ut consequuntur cum deserunt! Fugit, deleniti quisquam. 
+                        Provident iste voluptatibus similique enim aperiam.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-comment"></i>
+                    <div class="user">
+                        <img src="./foodpics/IMG-20220817-WA0038.jpg">
+                        <div class="user-info">
+                            <h3>Cindy Ramos</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione autem cupiditate? 
+                        Nulla, magni? Sunt accusamus iure ut consequuntur cum deserunt! Fugit, deleniti quisquam. 
+                        Provident iste voluptatibus similique enim aperiam.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-comment"></i>
+                    <div class="user">
+                        <img src="./foodpics/IMG-20220618-WA0031.jpg">
+                        <div class="user-info">
+                            <h3>Charles Aimar</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione autem cupiditate? 
+                        Nulla, magni? Sunt accusamus iure ut consequuntur cum deserunt! Fugit, deleniti quisquam. 
+                        Provident iste voluptatibus similique enim aperiam.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- 
+   <section class="order" id="order">
+
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> free and fast</h1>
+
+    <form action="">
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="Enter your name">
+            </div>
+
+            <div class="input">
+                <span>moblie number</span>
+                <input type="text" placeholder="Mobile number">
+            </div>
+
+            <div class="input">
+                <span>your order</span>
+                <input type="text" placeholder="Food name">
+            </div>
+
+            <div class="input">
+                <span>additional food</span>
+                <input type="text" placeholder="Additional food">
+            </div>
+
+            <div class="input">
+                <span>extra?</span>
+                <input type="number" placeholder="How many extra food">
+            </div>
+
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local">
+            </div>
+
+            <div class="input">
+                <span>address</span>
+                <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="input">
+                <span>message</span>
+                <textarea name="" placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn">
+    </form>
+
+    SELECT SupplierID COUNT(Price) AS 'total price', SUM(price) AS 'total price' FROM products GROUP BY SupplierID; 
+
+
+   </section>
+    
+     -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="food.js"></script>
+</body>
+</html>
+
